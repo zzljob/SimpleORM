@@ -16,6 +16,7 @@ import android.text.TextUtils;
  * <p>
  * 开发中只需要指定一些数据库的表和字段的名字就可以了
  * </p>
+ * <p>如果想对数据库的某个字段进行加密，需要在buildEntity，getValues方法里自己实现</p>
  * 
  * @author zzljob@gmail.com
  * @date 2012-12-22
